@@ -100,7 +100,7 @@ public class empController {
 	}
 	
 	//Using J query with name 
-	@GetMapping(value="/queryNameEmp/{a}")
+	@GetMapping(value="/queryNameEmp/{b}")
 	public List<empEntity> getByEmpName(@PathVariable String a) {
 		return es.getByEmpName(a);
 	}
